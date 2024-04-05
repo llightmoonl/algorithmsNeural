@@ -1,0 +1,45 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.table__column{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.table__column__active{
+    background-color: black;
+}
+
+.examples__templates{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+}
+
+.example{
+    border-collapse: collapse;
+    margin-right: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.example__column{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.example__column__active{
+    background-color: black;
+}
+
+.learning__tools{
+    margin-top: 20px;
+}
